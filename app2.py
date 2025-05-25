@@ -3,7 +3,7 @@ import streamlit as st
 
 prompt = st.chat_input('ask something')
 
-api_key = 'AIzaSyC8Scb2KnVjSTtgPXA0klt1IRZlzouT3YQ'
+api_key = 'api_key'
 client = genai.Client(api_key=api_key)
 
 response = client.models.generate_content(
