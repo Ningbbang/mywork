@@ -3,7 +3,7 @@ import streamlit as st
 
 promt = st.chat_input('ask something')
 
-openai.api_key = "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"
+openai.api_key "api_key"
 response = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",  # or "gpt-3.5-turbo"
     messages=[
